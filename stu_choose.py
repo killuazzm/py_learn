@@ -25,6 +25,6 @@ def del_stu(stu_name):
 
 if __name__  == "__main__":
 
-    num1 = 3
+    num1 = 5
     random_stu(29,num1)
     print(stu_xuan)
