@@ -8,3 +8,10 @@ num3 = (list1,4,5)
 print(num3)
 list1[0] = 0
 print(num3)
+
+# 将元组转换为列表
+list2 = list(num3)
+print(list2)
+# 将列表转换为元素
+tuple1 = tuple(list2)
+print(tuple1)
