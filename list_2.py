@@ -14,3 +14,10 @@ print(f.__sizeof__)
 print(f)
 for val in f:
     print(val)
+
+# 通过yield关键字将函数改造成生成器函数
+def fib(n):
+    a,b = 0,1
+    for _ in range(n):
+        a,b = b,a+b
+    yield a
