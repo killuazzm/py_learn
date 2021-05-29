@@ -24,8 +24,8 @@ def del_stu(stu_name):
 
 
 if __name__  == "__main__":
-    num1 = int(input('需要几人：'))
-    is_del = int(input('需要删除几人'))
+    num1 = int(input('需要几人:'))
+    is_del = int(input('需要删除几人:'))
     for i in range(is_del):
         stu_name = input('输入删除名称:')
         del_stu(stu_name)
